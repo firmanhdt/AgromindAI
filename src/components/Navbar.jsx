@@ -12,13 +12,21 @@ export const Navbar = () => {
   return (
     <div className='w-full h-[80px] bg-white border-b'>
         <div className='md:max-w-[1200px] max-w-[600px] m-auto w-full h-full flex justify-between items-center'>
-            <img src={logo} alt="Logo" className='h-[25px]' />
+            <img src={logo} alt="Logo" className='h-[90px] w-[100px]' />
                 <div className='hidden md:flex items-center'>
                     <ul className='flex gap-4'>
-                        <li className=' hover:text-orange-700'>Beranda</li>
-                        <li className=' hover:text-orange-700'>Fitur</li>
-                        <li className=' hover:text-orange-700'>Diskusi</li>
-                        <li className=' hover:text-orange-700'>Kontak</li>
+                    <li>
+                    <a href="#beranda" className='hover:text-orange-700'>Beranda</a>
+                    </li>
+                    <li>
+                    <a href="#fitur" className='hover:text-orange-700'>Fitur</a>
+                    </li>
+                    <li>
+                    <a href="#diskusi" className='hover:text-orange-700'>Diskusi</a>
+                    </li>
+                    <li>
+                    <a href="#kontak" className='hover:text-orange-700'>Kontak</a>
+                    </li>
                     </ul>
                 </div>
                 <div className='hidden md:flex'>
@@ -32,10 +40,18 @@ export const Navbar = () => {
         
         <div className={toggle?'absolute z-10 p-4 bg-white w-full px-8 md:hidden':'hidden'}>
             <ul>
-                <li className='p-4 hover:bg-gray-100'>Beranda</li>
-                <li className='p-4 hover:bg-gray-100'>Fitur</li>
-                <li className='p-4 hover:bg-gray-100'>Diskusi</li>
-                <li className='p-4 hover:bg-gray-100'>Kontak</li>
+                <li>
+                <a href="#beranda" className='hover:text-orange-700'>Beranda</a>
+                </li>
+                <li>
+                <a href="#fitur" className='hover:text-orange-700'>Fitur</a>
+                </li>
+                <li>
+                <a href="#diskusi" className='hover:text-orange-700'>Diskusi</a>
+                </li>
+                <li>
+                <a href="#kontak" className='hover:text-orange-700'>Kontak</a>
+                </li>
                 <div className='flex flex-col my-4 gap-4'>
                    <button className='px-8 py-5 rounded-2xl bg-[#362B0E] text-white font-bold'>Login</button>
                 </div>

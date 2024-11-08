@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
-import Hero from "./Hero";
+import Landingpage from "./Landingpage";
+import Footer from "./Footer";
 
-export {Navbar,Hero}
+export {Navbar,Landingpage,Footer}
