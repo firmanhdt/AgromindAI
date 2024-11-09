@@ -6,8 +6,10 @@ import Landingpage  from "./components/Landingpage"
 import Navbar from "./components/Navbar"
 import DiagnosePage from "./components/DiagnosePage";
 import HasilDiagnose from "./components/HasilDiagnose";
-import Infonutrisi from "./components/Info";
+import Infonutrisi from "./components/Infonutrisi";
 import Login from "./components/Login";
+import Register from "./components/Register";
+import Infopenyakit from "./components/Infopenyakit";
 
 function App() {
   return (
@@ -18,8 +20,10 @@ function App() {
           <Route path="/" element={<Landingpage />} />
           <Route path="/diagnose" element={<DiagnosePage />} />
           <Route path="/hasil" element={<HasilDiagnose/>}/>
-          <Route path="/info" element={<Infonutrisi />}/>
+          <Route path="/infonutrisi" element={<Infonutrisi />}/>
           <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register/>}/>
+          <Route path="/infopenyakit" element={<Infopenyakit/>}/>
         </Routes>
       <Footer/>
     </div>

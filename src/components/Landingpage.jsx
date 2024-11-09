@@ -37,36 +37,29 @@ export const Landingpage = () => {
     </div>
 
     {/* // Features */}
-    <div className="bg-gray-50 py-16">
+    <div className=" bg-gray-50 py-16">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Fitur Unggulan Pada AgroMind AI</h2>
           <p className="text-gray-600 mb-10">
             Kami terus berupaya untuk membantu anda dalam mengatasi masalah pada sapi anda
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {/* Diagnosa Card */}
-            <a href="/diagnosa" className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <a href="#diagnosa" className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
                 <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mb-4">
                 <span className="text-purple-500 text-xl">📊</span>
                 </div>
                 <h3 className="text-gray-900 font-medium">Diagnosa</h3>
             </a>
             {/* Data Penyakit Card */}
-            <a href="/data-penyakit" className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <a href="#diagnosa" className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
                 <div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center mb-4">
                 <span className="text-yellow-500 text-xl">📚</span>
                 </div>
                 <h3 className="text-gray-900 font-medium">Data Penyakit</h3>
             </a>
-            {/* Dokter Card */}
-            <a href="/dokter" className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mb-4">
-                <span className="text-red-500 text-xl">🩺</span>
-                </div>
-                <h3 className="text-gray-900 font-medium">Dokter</h3>
-            </a>
             {/* Info Nutrisi Card */}
-            <a href="/info" className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <a href="#nutrisi" className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
                 <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
                 <span className="text-blue-500 text-xl">🍏</span>
                 </div>
@@ -77,7 +70,7 @@ export const Landingpage = () => {
     </div>
 
     {/* Diagnosa and Informasi */}
-    <div className="py-16 bg-white">
+    <div id='diagnosa' className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-8">
           {/* First Card - Link to Diagnose Page */}
@@ -96,7 +89,7 @@ export const Landingpage = () => {
     </div>
 
     {/*Nutrisi*/}
-    <div className="bg-white py-16 px-4 sm:px-6 lg:px-8">
+    <div id='nutrisi' className="bg-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Berikan Nutrisi Terbaik Pada Sapi Anda</h2>
           <p className="text-gray-600 mb-6">
@@ -109,9 +102,9 @@ export const Landingpage = () => {
               className="rounded-lg shadow-lg w-full max-w-md"
             />
           </div>
-          <button className="px-8 py-3 bg-yellow-500 text-white font-semibold rounded-3xl hover:bg-yellow-600 focus:outline-none">
-            Nutrisi Pangan
-          </button>
+            <a href="/infonutrisi" className="px-8 py-3 bg-yellow-500 text-white font-semibold rounded-3xl hover:bg-yellow-600 focus:outline-none">
+              Nutrisi Pangan
+            </a>
         </div>
       </div>
 

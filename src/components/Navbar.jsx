@@ -30,7 +30,9 @@ export const Navbar = () => {
                     </ul>
                 </div>
                 <div className='hidden md:flex'>
-                    <button className='px-8 py-3 rounded-2xl bg-[#362B0E] text-white font-bold'>Login</button>
+                        <a href="/login" className="bg-[#362B0E] text-white py-2 px-4 rounded-2xl hover:bg-[#1f1808]">
+                        Login
+                    </a>
                 </div>
 
                 <div className='md:hidden' onClick={handleClick}>
