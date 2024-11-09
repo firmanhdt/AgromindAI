@@ -5,42 +5,42 @@ const diseases = [
   {
     title: 'Brucellosis',
     description: 'Brucellosis adalah penyakit menular seksual yang menyebabkan keguguran pada sapi betina. Gejalanya meliputi keguguran berulang, kemandulan, dan retensi plasenta.',
-    imageUrl: 'path/to/image1.jpg'
+    imageUrl: '/src/assets/penyakit/image 1.jpg'
   },
   {
     title: 'Leptospirosis',
     description: 'Leptospirosis adalah penyakit akut yang disebabkan oleh bakteri leptospira. Gejalanya meliputi demam tinggi, kuning, lemas, dan gangguan urinal.',
-    imageUrl: 'path/to/image2.jpg'
+    imageUrl: '/src/assets/penyakit/image 2.jpeg'
   },
   {
     title: 'Anthrax',
     description: 'Anthrax adalah penyakit akut yang disebabkan oleh bakteri Bacillus anthracis. Gejalanya meliputi demam tinggi, kesulitan bernapas, dan darah keluar dari lubang tubuh.',
-    imageUrl: 'path/to/image3.jpg'
+    imageUrl: '/src/assets/penyakit/image 3.jpg'
   },
   {
     title: 'Mastitis',
     description: 'Mastitis adalah peradangan pada ambing sapi yang disebabkan oleh bakteri. Gejalanya meliputi pembengkakan kemerahan, dan nyeri pada ambing, serta perubahan pada susu.',
-    imageUrl: 'path/to/image4.jpg'
+    imageUrl: '/src/assets/penyakit/image 4.jpg'
   },
   {
     title: 'Cacing Hati',
     description: 'Cacing hati adalah parasit yang hidup di hati sapi. Gejalanya meliputi penurunan berat badan, perut membuncit, dan anemia.',
-    imageUrl: 'path/to/image5.jpg'
+    imageUrl: '/src/assets/penyakit/image 5.jpeg'
   },
   {
     title: 'Babesiosis',
     description: 'Babesiosis adalah penyakit yang disebabkan oleh parasit protozoa Babesia. Gejalanya meliputi demam tinggi, anemia, dan warna lendir merah tua.',
-    imageUrl: 'path/to/image6.jpg'
+    imageUrl: '/src/assets/penyakit/images 6.jpeg'
   },
   {
     title: 'Hipokalsemia',
     description: 'Hipokalsemia adalah kekurangan kalsium dalam darah. Gejalanya meliputi kelemahan otot, kelumpuhan, dan gangguan jantung.',
-    imageUrl: 'path/to/image7.jpg'
+    imageUrl: '/src/assets/penyakit/image 7.jpg'
   },
   {
     title: 'Penyakit Kulit (LSD)',
     description: 'LSD adalah penyakit kulit infeksius yang disebabkan oleh virus Lumpy Skin Disease Virus (LSD). Virus ini umumnya menyerang hewan sapi dan kerbau.',
-    imageUrl: 'path/to/image8.jpg'
+    imageUrl: '/src/assets/penyakit/image 8.jpg'
   },
 ];
 
