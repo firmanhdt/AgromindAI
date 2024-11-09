@@ -66,7 +66,7 @@ export const Landingpage = () => {
                 <h3 className="text-gray-900 font-medium">Dokter</h3>
             </a>
             {/* Info Nutrisi Card */}
-            <a href="/info-nutrisi" className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <a href="/info" className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
                 <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
                 <span className="text-blue-500 text-xl">🍏</span>
                 </div>
@@ -87,7 +87,7 @@ export const Landingpage = () => {
           </a>
           
           {/* Second Card - Link to Info Page */}
-          <a href="/info" className="text-center hover:bg-gray-100 p-4 rounded-lg">
+          <a href="/infopenyakit" className="text-center hover:bg-gray-100 p-4 rounded-lg">
             <img src={logo} alt="Animal Disease Information" className="mx-auto h-48 mb-4" />
             <h3 className="text-xl font-semibold">Informasi Data Penyakit Hewan Ternak</h3>
           </a>
