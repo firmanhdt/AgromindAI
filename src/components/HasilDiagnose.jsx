@@ -50,10 +50,10 @@ function HasilDiagnose() {
 
             <p class="mt-4 mb-2">Selain infeksi bakteri, faktor-faktor lain yang dapat meningkatkan risiko terjadinya mastitis antara lain:</p>
             <ul class="list-disc list-inside space-y-2 ml-4">
-                <li>Kebersihan yang buruk: Peralatan pemerahan yang tidak bersih, lingkungan kandang yang kotor, dan teknik pemerahan yang tidak benar dapat meningkatkan risiko infeksi.</li>
-                <li>Trauma pada ambing: Luka pada ambing dapat menjadi pintu masuk bagi bakteri.</li>
-                <li>Ketidakseimbangan hormon: Perubahan hormon pada saat kering atau saat awal laktasi dapat meningkatkan kerentanan terhadap mastitis.</li>
-                <li>Sistem kekebalan tubuh yang lemah: Sapi dengan sistem kekebalan tubuh yang lemah lebih mudah terinfeksi.</li>
+                <li><span className="font-semibold">Kebersihan yang buruk:</span> Peralatan pemerahan yang tidak bersih, lingkungan kandang yang kotor, dan teknik pemerahan yang tidak benar dapat meningkatkan risiko infeksi.</li>
+                <li><span className="font-semibold">Trauma pada ambing:</span> Luka pada ambing dapat menjadi pintu masuk bagi bakteri.</li>
+                <li><span className="font-semibold">Ketidakseimbangan hormon:</span> Perubahan hormon pada saat kering atau saat awal laktasi dapat meningkatkan kerentanan terhadap mastitis.</li>
+                <li><span className="font-semibold">Sistem kekebalan tubuh yang lemah:</span> Sapi dengan sistem kekebalan tubuh yang lemah lebih mudah terinfeksi.</li>
             </ul>
         </div>
 
