@@ -29,21 +29,9 @@ const DashboardContent = () => {
     labels: ['Minggu 1', 'Minggu 2', 'Minggu 3', 'Minggu 4'],
     datasets: [
       {
-        label: 'Pemasukan',
+        label: 'Pengunjung',
         data: [1000000, 4500000, 3200000, 5000000],
         borderColor: 'rgb(75, 192, 192)',
-        tension: 0.1,
-      },
-      {
-        label: 'Pengeluaran',
-        data: [2000000, 3500000, 4200000, 3000000],
-        borderColor: 'rgb(255, 99, 132)',
-        tension: 0.1,
-      },
-      {
-        label: 'Laba Bersih',
-        data: [5000000, 5500000, 5300000, 6000000],
-        borderColor: 'rgb(255, 205, 86)',
         tension: 0.1,
       },
     ],
@@ -70,7 +58,7 @@ const DashboardContent = () => {
     <div className="mb-6">
       <h1 className="text-2xl font-bold text-gray-800 text-start">Dashboard</h1>
       <p className="text-gray-600 text-start">
-        Ini adalah halaman yang menampilkan data atau informasi secara visual di Agrowisata Tepas Papandayan.
+        Ini adalah halaman yang menampilkan data atau informasi secara visual.
       </p>
     </div>
 
@@ -79,14 +67,14 @@ const DashboardContent = () => {
       {/* Jumlah Pemasukan */}
       <div className="p-4 bg-green-100 rounded-lg shadow-md text-center">
         <h2 className="text-lg font-semibold text-gray-800">Jumlah Pengunjung</h2>
-        <p className="text-xl font-bold text-gray-900">Rp10.000.000</p>
+        <p className="text-xl font-bold text-gray-900">10.000.000</p>
       </div>
     </div>
       {/* Grafik Section */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
         {/* Grafik Pengunjung */}
         <div className="bg-white p-4 rounded-lg shadow-md">
-          <h2 className="text-lg font-semibold mb-4">Grafik Pemasukan, Pengeluaran, dan Laba Bersih</h2>
+          <h2 className="text-lg font-semibold mb-4">Grafik Pengunjung</h2>
           <Line data={financialData} options={options} />
         </div>
       </div>

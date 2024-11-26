@@ -13,7 +13,7 @@ function Sidebar() {
         <div className="flex items-center justify-between h-14 px-4">
         <div className="flex items-center md:ml-64 ml-0">
             <span className="font-bold text-lg">Halo, Refiani!</span>
-            <span className="text-gray-500 text-sm ml-2">Selamat Datang Di Verdant</span>
+            <span className="text-gray-500 text-sm ml-2">Selamat Datang Di AgromindAI</span>
           </div>
           <div className="flex items-center">
             <img
@@ -60,7 +60,7 @@ function Sidebar() {
             /> */}
             {/* Nama dan Role */}
             <div className="text-sm">
-              <h2 className="font-medium">Nama Produk</h2>
+              <h2 className="font-medium">AGROMINDAI</h2>
               {/* <div className="font-medium">Refiani Julianti</div> */}
               {/* <div className="text-gray-500 text-xs">Admin</div> */}
             </div>
@@ -76,7 +76,7 @@ function Sidebar() {
             </li>
             <li>
               <Link
-                to="/dashboard"
+                to="/admin"
                 className={`relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 ${
                   isActive('/dashboard') 
                     ? 'border-emerald-500 text-emerald-500 bg-emerald-50'
@@ -108,7 +108,7 @@ function Sidebar() {
             </li>
             <li>
               <Link
-                to="/pengunjung"
+                to="/admin/pengunjung"
                 className={`relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 ${
                   isActive('/pengunjung') 
                     ? 'border-emerald-500 text-emerald-500 bg-emerald-50'
@@ -127,7 +127,7 @@ function Sidebar() {
                 </span>
               </Link>
               <Link
-                to="/profile"
+                to="/admin/profile"
                 className={`relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 ${
                   isActive('/profile') 
                     ? 'border-emerald-500 text-emerald-500 bg-emerald-50'
